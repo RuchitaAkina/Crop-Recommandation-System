@@ -12,13 +12,12 @@ It uses a trained classification model along with MinMax scaling to predict opti
 
 **Project Structure**
 
-templates/
-
--[HTML files]
--app1.py # Flask web app
--crop.ipynb # Model training and evaluation notebook
--minmaxscaler.pkl # Scaler used during training
--model.pkl # Trained ML model
+├── templates/
+│ └── [HTML files]
+├── app1.py # Flask web app
+├── crop.ipynb # Model training and evaluation notebook
+├── minmaxscaler.pkl # Scaler used during training
+├── model.pkl # Trained ML model
 
 **Technologies Used**
 
